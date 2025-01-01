@@ -1,5 +1,7 @@
 fn main() {
     let mut x: i8 = 5; // i32 is signed therefore it can be negative, unsigned int types do not have a sign (+ or -), therefore they can ONLY be positive(+)
+
+    println!("--- NUMERICAL OPERATIONS -------------------------------------");
     // numerical operations
 
     // addition
@@ -23,15 +25,15 @@ fn main() {
     let remainder = 43 % 5;
     println!("The remainder is: {remainder}");
 
-    println!("-------------------------------------");
+    
 
     // booleans 
     let t = true;
     let f: bool = false; // explicit type annotation
 
-    println!("-------------------------------------");
-
     // chars
+
+    println!("--- CHARS -------------------------------------");
 
     // chars use single quotes '' & are rust's most primitive datatype
 
@@ -44,7 +46,7 @@ fn main() {
     println!("{smiley_emoji}");
 
     
-    println!("-------------------------------------");
+    println!("--- TUPLES -------------------------------------");
 
     // compound types
 
@@ -57,7 +59,7 @@ fn main() {
     println!("The value of y is: {y}");
     
 
-    println!("-------------------------------------");
+    println!("--- ARRAYS -------------------------------------");
 
     // arrays
 
