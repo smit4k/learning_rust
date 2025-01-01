@@ -78,6 +78,10 @@ fn main() {
     let some_array = [1,2,3,4,5];
 
     let first = some_array[0]; // because arrays start at 0
-    let second = some_array[1];
+    let third = some_array[2];
+
+    println!("The first element in some_array is: {first}");
+    println!("The third element in some_array is: {third}");
+
 
 }
