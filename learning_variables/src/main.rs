@@ -1,5 +1,5 @@
 fn main() {
-    let mut x: i8 = 5; // i32 is signed therefore it can be negative, unsigned int types do not have a sign (+ or -), therefore they can ONLY be positive(+)
+    let mut x: i8 = 5; // i32 is signed therefore it can be negative, unsigned int types cannot have a sign (like -) so they can ONLY be positive
 
     println!("--- NUMERICAL OPERATIONS -------------------------------------");
     // numerical operations
