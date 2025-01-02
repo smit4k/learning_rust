@@ -62,7 +62,7 @@ fn main() {
 
     let tup: (i32, f64, u8) = (500, 6.4, 1);
 
-    let (x,y,z) = tup;
+    let (x,y,z) = tup; // deconstructing tup and breaking it down into three seperate variables (x,y, and z)
 
     println!("The value of y is: {y}");
     
