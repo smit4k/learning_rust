@@ -16,6 +16,9 @@ fn main() {
 
     let x = five();
     println!("The value of x is: {x}");
+
+    let z = plus_one(8);
+    println!("The value of z is {z}");
 }
 
 fn another_function(x:i32) {
@@ -30,4 +33,8 @@ fn print_labeled_measurement(value: i32, label: char){
 // Even though this func only contains the number 5, it is still perfectly legal. (even its return type is i32)
 fn five() -> i32 {
     5 // 5 is an expression because it doesn't have a semicolon and this is the expression we want to return.
+}
+
+fn plus_one(x: i32) -> i32 {
+    x+1
 }
