@@ -1,5 +1,13 @@
 fn main() {
+
+    println!("--- EXPLICIT QUANTITATIVE -------------------------------------");
     let mut x: i8 = 5; // i32 is signed therefore it can be negative, unsigned int types cannot have a sign (like -) so they can ONLY be positive
+    let my_int: i32 = 13; // i32 is the default for integers
+    let my_float: f64 = 3.14; // f64 is the default for floating point numbers
+
+    println!("The value of my_int is: {my_int}");
+    println!("The value of my_float is: {my_float}");
+    
 
     println!("--- NUMERICAL OPERATIONS -------------------------------------");
     // numerical operations
