@@ -18,7 +18,7 @@ fn main() {
     println!("The value of x is: {x}");
 
     let z = plus_one(8);
-    println!("The value of z is {z}");
+    println!("The value of z is: {z}");
 }
 
 fn another_function(x:i32) {
