@@ -28,4 +28,20 @@ fn main() {
     else{
         println!("My number is not divisible by 3 or 5");
     }
+
+    // Using if in a let statement
+
+    let condition: bool = true;
+    let other_number: i32 = if condition { 5 } else { 6 };
+    // if condition is true, it sets other_number to 5, otherwise, it sets other_number to 6
+
+    println!("The value of other_number is: {other_number}");
+    
+    /*
+    let some_num = if condition { 5 } else { "six" };
+    println!("The value of some_num is: {some_num}");
+
+    THIS WILL NOT WORK! Because... the types are mismatched
+
+     */
 }
