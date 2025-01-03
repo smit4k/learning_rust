@@ -44,4 +44,28 @@ fn main() {
     THIS WILL NOT WORK! Because... the types are mismatched
 
      */
+
+    println!("--- LOOPS ---------------");
+
+    /* This is an infinite loop that will continuously print again! to the terminal.
+    loop {
+        println!("again!");
+    }
+    */
+
+    // We use breaks to escape the loop
+    // In the example below, once counter reaches the value 10, we break and multiply counter by 2.
+
+    let mut counter = 0;
+
+    let result = loop {
+        counter += 1;
+
+        if counter == 10 {
+            break counter * 2;
+        }
+    };
+
+    println!("The value of counter is: {result}");
+
 }
