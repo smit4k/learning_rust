@@ -19,6 +19,9 @@ fn main() {
 
     let z = plus_one(8);
     println!("The value of z is: {z}");
+
+    let someNumEven: bool = is_even(9);
+    println!("Is 9 even? {someNumEven}");
 }
 
 fn another_function(x:i32) {
@@ -37,4 +40,14 @@ fn five() -> i32 {
 
 fn plus_one(x: i32) -> i32 {
     x+1
+}
+
+fn is_even(x:i32) -> bool {
+    if x % 2 == 0 {
+        return true;
+
+    }
+    else {
+        return false;
+    }
 }
