@@ -1,11 +1,9 @@
 fn main() {
-    let number:i32 = 3;
-
+    let number: i32 = 3;
 
     if number < 5 {
         println!("condition was true");
-    }
-    else {
+    } else {
         println!("condition was false");
     }
 
@@ -18,14 +16,11 @@ fn main() {
 
     if my_num % 5 == 0 && my_num % 3 == 0 {
         println!("my num is divisible by both 5 and 3");
-    }
-    else if my_num % 5 == 0 {
+    } else if my_num % 5 == 0 {
         println!("my num is divisible by 5");
-    }
-    else if my_num % 3 == 0 {
+    } else if my_num % 3 == 0 {
         println!("my num is divisible by 3");
-    }
-    else{
+    } else {
         println!("My number is not divisible by 3 or 5");
     }
 
@@ -36,7 +31,7 @@ fn main() {
     // if condition is true, it sets other_number to 5, otherwise, it sets other_number to 6
 
     println!("The value of other_number is: {other_number}");
-    
+
     /*
     let some_num = if condition { 5 } else { "six" };
     println!("The value of some_num is: {some_num}");
@@ -67,5 +62,17 @@ fn main() {
     };
 
     println!("The value of counter is: {result}");
+    println!();
 
+    // While loops
+
+    let mut some_num = 3;
+
+    while some_num != 0 {
+        println!("{some_num}");
+
+        some_num -= 1;
+    }
+
+    println!("LIFTOFF!");
 }
