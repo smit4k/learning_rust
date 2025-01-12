@@ -75,4 +75,27 @@ fn main() {
     }
 
     println!("LIFTOFF!");
+    println!();
+
+    // Looping through a collection with for loops
+    //
+    println!("WHILE LOOP THROUGH AN ARRAY\n");
+
+    let arr = [10, 20, 30, 40, 50];
+    let mut index = 0;
+
+    while index < 5 {
+        println!("The value is {}", arr[index]); // Prints value of arr at index
+        index += 1; // Increments value of index by 1. You are looping through the array.
+    }
+
+    println!("\nBETTER FOR LOOP\n");
+
+    // Better way to loop through an array
+    let a = [10, 20, 30, 40, 50];
+
+    // For each element in a, it prints the element.
+    for element in a {
+        println!("The value is: {element}");
+    }
 }
