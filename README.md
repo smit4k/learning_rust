@@ -1,5 +1,5 @@
 # Overview
-This repository is just a place for me to store my notes while learning Rust.
+This repository is just a place for me to store my notes while learning Rust. I found that learning via the book along with implementing my newly learned concepts through projects were the most effective in terms of learning Rust!
 
 ## Resources
 - [Rust book](https://doc.rust-lang.org/book/)
