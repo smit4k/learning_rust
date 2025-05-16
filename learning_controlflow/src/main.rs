@@ -2,9 +2,9 @@ fn main() {
     let number: i32 = 3;
 
     if number < 5 {
-        println!("condition was true");
+        println!("The number is less than 5");
     } else {
-        println!("condition was false");
+        println!("The number is 5 or greater");
     }
 
     if number != 0 {
