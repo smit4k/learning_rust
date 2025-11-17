@@ -98,4 +98,18 @@ fn main() {
     for element in a {
         println!("The value is: {element}");
     }
+
+    println!("Fahrenheit to Celsius exercise");
+
+    fn fahrenheit_to_celsius(fahrenheit: f32) -> f32 {
+        (5.0 / 9.0) * (fahrenheit - 32.0)
+    }
+
+    let temps_fahrenheit = [63, 65, 78, 44, 32, 12, 55];
+
+    for temps in temps_fahrenheit {
+        println!("These are the temps in Celsius: {}", {
+            fahrenheit_to_celsius(temps as f32)
+        });
+    }
 }
